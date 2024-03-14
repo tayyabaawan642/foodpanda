@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans, arial, sans-serif;
+}
+
+#div1 {
+    background-color: #e21b70;
+    text-align: center;
+    padding: 8px 0;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+#para1 {
+    display: inline;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+}
+
+#btn {
+    background-color: #e21b70;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: #e21b70;
+}
+
+#navbar {
+    padding: 10px 10%;
+    box-shadow: 0px 0px 15px black;
+}
+
+#logo {
+    display: inline;
+}
+
+#nav-items {
+    display: inline;
+    float: right;
+}
+
+.nav-btn {
+    margin-right: 10px;
+}
+
+
+#login-btn {
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 8px;
+    color: #e21b70;
+    border: 2px solid #e21b70;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#login-btn:hover {
+    transform: scale(1.1);
+    background-color: #ffe4f0;
+}
+
+#signup-btn {
+    background-color: #e21b70;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+#signup-btn:hover {
+    transform: scale(1.1);
+}
+
+.fa-solid {
+    font-size: 17px;
+    padding-right: 15px;
+}
+
+#en {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.fa-cart-shopping {
+    color: #e21b70;
+    background-color: transparent;
+}
+
+#div2 {
+    background-color: #f7f7f7;
+    height: 80vh;
+    position: relative;
+}
+
+#div2-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+
+}
+
+#div2-container-para {
+    font-size: 45px;
+    color: rgb(55, 54, 54);
+}
+
+#input-section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#input-field {
+    width: 80%;
+    padding: 16px;
+    border-radius: 15px;
+    border: 2px solid rgb(190, 186, 186);
+}
+
+#div2-container-btn,
+#div5-container-btn,
+#div10-container-btn {
+    background-color: #e21b70;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#div2-container-btn:hover,
+#div5-container-btn:hover,
+#div10-container-btn:hover {
+    transform: scale(1.1);
+}
+
+#div2-img {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#div3 {
+    padding: 75px 0 25px 75px;
+}
+
+#div3-para,
+#div6-content-para,
+#div7-para,
+#div8 {
+    font-size: 35px;
+    line-height: 105px;
+}
+
+#div4 {
+    height: 500px;
+    background: url("https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=1400&height=896") no-repeat center center/cover;
+    position: relative;
+}
+
+#div5-content {
+    background-color: white;
+    position: relative;
+    left: 7%;
+    margin-top: -200px;
+    padding: 30px;
+    width: 40%;
+    border-radius: 15px;
+    line-height: 20px;
+    box-shadow: 0px 0px 50px rgb(67, 66, 66);
+}
+
+#div6,
+#div7,
+#div8 {
+    margin-left: 10%;
+    margin-top: 80px;
+}
+
+.div6-cities-img {
+    width: 22%;
+    height: 230px;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.div6-cities-img:hover {
+    transform: scale(1.1);
+}
+
+
+.div6-content-images {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.div6-cities-name {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    z-index: 1;
+}
+
+#div7 {
+    margin-right: 10%;
+
+}
+
+#div7-container {
+    background-color: #e21b70;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    /* height: 400px; */
+    position: relative;
+
+}
+
+#div7-content {
+    width: 40%;
+    padding: 50px 30px;
+}
+
+#div7-content-header {
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+#div7-content-para {
+    color: black;
+    padding-bottom: 30px;
+}
+
+.div7-links {
+    width: 120px;
+}
+
+#div7-img {
+    height: 350px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    right: 0;
+}
+
+#div9 {
+    height: 500px;
+    background: url("https://images.deliveryhero.io/image/foodpanda/home-corporate-pk.jpg?width=1400&height=896") no-repeat center center/cover;
+    position: relative;
+}
+
+#div10-content {
+    background-color: white;
+    position: relative;
+    left: 7%;
+    margin-top: -100px;
+    padding: 30px;
+    width: 40%;
+    border-radius: 15px;
+    line-height: 20px;
+    box-shadow: 0px 0px 50px rgb(67, 66, 66);
+}
+
+#div11{
+    margin: 80px 10%;
+}
+
+table{
+    margin: 80px 10%;
+}
+
+table tr td{
+    border-right: 2px solid black;
+    padding-right: 15px;
+    padding-left: 15px;
+}
